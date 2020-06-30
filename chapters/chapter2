@@ -1,2 +1,11 @@
 
 - pg 54-59 - look out for var - that it can only be used as a local variable type inference
+- 64 - System.gc() is not guarenteed to run or do anything, and you should be able to recognize when objects become eligible for garbage collection (when the object's state no longer being accessible in a program and therefor able to be garbage collected)
+    - An object is no longer reachable when either:
+        1. The object no longer has any references pointing to it
+        2. All references to the object have gone out of scope
+- finalize() can run zero or one times. It cannot run twice
+- Be able to recognize the constructor 
+    - has same namea s class
+    - looks like a method without a return type
+- Local variables require explicit instantialization - others use the default value for that type
