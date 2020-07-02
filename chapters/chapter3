@@ -6,4 +6,4 @@
 - For the exam, remember to keep track of the parenthese and return types anytime casting is involved 91
 - short values are automatically promoted to int when applying any arithmetic operator 
 - Be familiar with the assignment operator on pg 93
-- Know that calling instanceof on the ull literal or a null reference always returns false
+- Know that calling instanceof on the null literal or a null reference always returns false
