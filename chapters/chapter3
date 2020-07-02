@@ -1,0 +1,9 @@
+- For the exam you will need to memorize the order of precedence in the table on page 82
+- For the exam it is critical that you know the difference between expressions like parkAttendance++ and ++parkAttendance
+- Be sure to understand the difference between arithmetic division and modulus pg 88
+- Should know about numeric promotion pg 88
+- Be fluent in understandign how the copiler handles numeric promotion and when casting is required 90
+- For the exam, remember to keep track of the parenthese and return types anytime casting is involved 91
+- short values are automatically promoted to int when applying any arithmetic operator 
+- Be familiar with the assignment operator on pg 93
+- Know that calling instanceof on the ull literal or a null reference always returns false
