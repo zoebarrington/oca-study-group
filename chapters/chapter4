@@ -1,0 +1,8 @@
+Switch Statements
+- pg 120 Must know the syntax of switch statements
+- pg 120 Note that an empty switch statement is valid e.g. switch(month) {}
+- pg 120 Make sure you memorize the syntax of the figure table
+- 120 - be aware that enums can be used as the target of switch statements
+- 123 - the exam creators are fond of switch statements without breaks! 
+- Remember to always consider that multiple branches may be visited on a single execution of a switch statement
+
