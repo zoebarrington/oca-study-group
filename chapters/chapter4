@@ -5,4 +5,5 @@ Switch Statements
 - 120 - be aware that enums can be used as the target of switch statements
 - 123 - the exam creators are fond of switch statements without breaks! 
 - Remember to always consider that multiple branches may be visited on a single execution of a switch statement
-
+- 129 - Always terminate your loops!
+- page 134 - familiarize yourself with these for loops
