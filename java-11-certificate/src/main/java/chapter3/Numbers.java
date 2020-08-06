@@ -1,7 +1,5 @@
 package chapter3;
 
-import java.util.Map;
-
 public class Numbers {
 
     double myDouble = 3.33;
@@ -26,5 +24,20 @@ public class Numbers {
 
         System.out.println(b);          //3.1415927
         System.out.println(Math.PI);    //3.141592653589793
+
+        int firstNumber = 3; //this assignment is redundant
+        int secondNumber = 2*(firstNumber = 5); //perfectly valid
+//        int secondNumber = 2*firstNumber = 5; // DOES NOT COMPILE as firstNumber = 5 is a an operation in itself
+
+        System.out.println(secondNumber); //10
+        System.out.println(firstNumber); //5
+
+        boolean healthy = false;
+        if(healthy = true) { //the assignment is executed and the result of the assignment is the value of the assignment so this evaluates to true
+            System.out.print("Good!");
+        }
+
+        System.out.println(healthy);
+
     }
 }
